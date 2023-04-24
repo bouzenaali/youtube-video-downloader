@@ -3,6 +3,19 @@ import requests
 from pytube import YouTube
 from tqdm import tqdm
 
+# docstring
+"""
+YouTube Video Downloader
+
+This script downloads YouTube videos given their URLs.
+
+Usage:
+  python main.py
+
+Author:
+  Ali Bouzena <
+"""
+
 # Validate user input for the YouTube video URL
 while True:
     url = input("Enter the YouTube video URL: ")
